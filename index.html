@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+
+  <fieldset>
+    <label for="player_one">Player One</label>
+    <input type="text" name="player_one" id="input_player_one"><button id="player_one_btn">submit</button>
+    <br />
+    <label for="player_two">Player Two</label>
+    <input type="text" name="player_two" id="input_player_two"><button id="player_two_btn">submit</button>
+  </fieldset>
+  <div>
+    <button id="start_game">Start Game</button>
+  </div>
+  <section id="players">
+    <h1>X: <span id="player_one_name"></span> - Wins: <span id="player_one_wins">0</span></h1>
+    <h1>O: <span id="player_two_name"></span>- Wins: <span id="player_two_wins">0</span></h1>
+  </section>
+
+
+  <section id="game_container" class="game_container hidden">
+    <div id="0" class="game_square"></div>
+    <div id="1" class="game_square"></div>
+    <div id="2" class="game_square"></div>
+    <div id="3" class="game_square"></div>
+    <div id="4" class="game_square"></div>
+    <div id="5" class="game_square"></div>
+    <div id="6" class="game_square"></div>
+    <div id="7" class="game_square"></div>
+    <div id="8" class="game_square"></div>
+  </section>
+
+  <script src="./scripts/tictactoe.js"></script>
+</body>
+
+</html>

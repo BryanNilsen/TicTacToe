@@ -1,0 +1,41 @@
+body {
+  background-color: lightblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game_container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+}
+
+.game_container>div {
+  border: 1px solid rgb(91, 140, 173);
+  padding: 10px;
+  text-align: center;
+  font-size: 4em;
+}
+
+.game_square {
+  background-color: rgb(140, 197, 223);
+}
+
+.game_square:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.red {
+  color: red;
+  background-color: aliceblue
+}
+
+.blue {
+  color: blue;
+  background-color: aliceblue
+}
+
+.hidden {
+  visibility: hidden;
+}
